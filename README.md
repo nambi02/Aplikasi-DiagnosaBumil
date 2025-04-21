@@ -10,16 +10,24 @@ This is a Java-based desktop application for diagnosing diseases caused by malnu
 - Built with Java and MySQL
 
 ## How to Run
-There are two ways to run this application:
+
+Before running the application, import the database:
+
+1. Open [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+2. Import the file `bumil.sql` located in the project folder.
+
+Then, run the application using one of the two options below:
 
 ### 1. Using the shortcut
-Simply double-click the `DiagnosaBumil.jar - Shortcut` file in the root folder.
+
+Double-click the `DiagnosaBumil.jar - Shortcut` file in the root folder.
 
 ### 2. Running manually
-Navigate to the `src` folder and run the `DiagnosaBumil.jar` file.
 
-> 💡 **Note:**  
-The login credentials are stored in the file `username and password.txt`.
+Go to the `src` folder and run the `DiagnosaBumil.jar` file.
+
+> Note:  
+> The login credentials can be found in `username and password.txt`.
 
 ## Demo Video
 Watch this video for a quick demo of how the application works:  
